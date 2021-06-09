@@ -23,7 +23,7 @@ const IPADPRO129_HEIGHT = 1024;
 const IPADPRO129_WIDTH = 1366;
 
 const IPHONE12_H = 844;
-const IPHONE12_Max = 926;
+const IPHONE12_Max = 896;
 const IPHONE12_Mini = 780;
 
 
