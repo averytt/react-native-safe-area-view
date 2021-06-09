@@ -22,8 +22,10 @@ const IPADPRO11_HEIGHT = 1194;
 const IPADPRO129_HEIGHT = 1024;
 const IPADPRO129_WIDTH = 1366;
 
+const IPHONE11_H = 812;
+const IPHONE11_Max = 896;
 const IPHONE12_H = 844;
-const IPHONE12_Max = 896;
+const IPHONE12_Max = 926;
 const IPHONE12_Mini = 780;
 
 
@@ -47,6 +49,7 @@ const isIPhoneX = (() => {
       (D_HEIGHT === X_WIDTH && D_WIDTH === X_HEIGHT)) ||
     ((D_HEIGHT === XSMAX_HEIGHT && D_WIDTH === XSMAX_WIDTH) ||
           (D_HEIGHT === XSMAX_WIDTH && D_WIDTH === XSMAX_HEIGHT)) ||
+    (D_HEIGHT === IPHONE11_H) || (D_HEIGHT === IPHONE11_Max) ||
       (D_HEIGHT === IPHONE12_H) || (D_HEIGHT === IPHONE12_Max) || (D_HEIGHT === IPHONE12_Mini)
   );
   
