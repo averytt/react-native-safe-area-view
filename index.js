@@ -28,7 +28,6 @@ const IPHONE12_H = 844;
 const IPHONE12_Max = 926;
 const IPHONE12_Mini = 780;
 
-
 const getResolvedDimensions = () => {
   const { width, height } = Dimensions.get('window');
   if (width === 0 && height === 0) return Dimensions.get('screen');
